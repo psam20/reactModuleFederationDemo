@@ -10,7 +10,7 @@ module.exports = {
             name:'products',
             filename:'remoteEntry.js',
             exposes:{
-                './ProductsIndex' : './src/index'
+                './ProductsIndex' : './src/bootstrap' // Here We have Changed it to bootstrap because Our Boostrap file is Exporting mount Function
             },
             shared:['faker']
         }),
